@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+nav {
+  height: 14vh;
+  background: var(--background);
+}
+.logo{
+    height: 10vh;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 24%;
+    height: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-top: -66px;
+}
+
+.nav-links li a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 28px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.hr-line{
+    width: 97%;
+    height: 1px;
+    background-color: var(--text);
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background: var(--text);
+    margin: 5px;
+  }
+  nav {
+    position: relative;
+    height: 14vh;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .hamburger.open .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .hamburger.open .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+.logo{
+    height: 10vh;
+  width: 70%;
+}
+  .nav-links {
+    position: fixed;
+    background: var(--secondary);
+    height: 146vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  .nav-links.open {
+    clip-path: circle(1100px at 90% -10%);
+    -webkit-clip-path: circle(1200px at 90% -10%);
+    pointer-events: all;
+    top: 0;
+    height: 110vh;
+  }
+  .landing {
+    flex-direction: column;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .nav-links li a {
+    font-size: 25px;
+  }
+  .nav-links.open li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links.open li:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links.open li:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+  .nav-links li {
+    opacity: 1;
+  }
+}

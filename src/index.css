@@ -1,0 +1,17 @@
+:root {
+
+  --background: #190a19;
+  --text: #ece0ed;
+  --primary: #e299e4;
+  --secondary: #87148b;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: var(--background);
+    color: var(--text);
+
+  }
