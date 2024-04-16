@@ -3,6 +3,9 @@
 nav {
   height: 14vh;
   background: var(--background);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .logo{
     height: 10vh;
@@ -87,8 +90,8 @@ nav {
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(1100px at 90% -10%);
-    -webkit-clip-path: circle(1200px at 90% -10%);
+    clip-path: circle(1300px at 90% -10%);
+    -webkit-clip-path: circle(1300px at 90% -10%);
     pointer-events: all;
     top: 0;
     height: 110vh;
