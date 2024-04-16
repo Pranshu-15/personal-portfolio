@@ -9,8 +9,8 @@ const Body = () => {
     <iframe className='hero-section-image' src="https://lottie.host/embed/cff70859-a1f8-4a3b-b5d1-d335bc7561b3/1JpEZGgGyQ.json"></iframe>
     <div className='first-line'>
       <h1 className='heading'>Hi Folks!!</h1>
-      <h1>&#128075;</h1>
-      <h1>&#x1F44B;</h1>
+      <h1 className='emoji'>&#128075;</h1>
+      <h1 className='emoji'>&#x1F44B;</h1>
     </div>
     <div className='second-line'>
       <h1 className='heading-two'>I'm Pranshu Agrawal</h1>
