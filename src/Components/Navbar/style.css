@@ -95,6 +95,7 @@ nav {
     pointer-events: all;
     top: 0;
     height: 110vh;
+    z-index: 1;
   }
   .landing {
     flex-direction: column;
