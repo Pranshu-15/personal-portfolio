@@ -10,7 +10,7 @@ const Body = () => {
     <div className='first-line'>
       <h1 className='heading'>Hi Folks!!</h1>
       <h1 className='emoji'>&#128075;</h1>
-      <h1 className='emoji'>&#x1F44B;</h1>
+      <h1 className='emoji emoji-two'>&#x1F44B;</h1>
     </div>
     <div className='second-line'>
       <h1 className='heading-two'>I'm Pranshu Agrawal</h1>

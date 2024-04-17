@@ -90,8 +90,8 @@ nav {
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(1300px at 90% -10%);
-    -webkit-clip-path: circle(1300px at 90% -10%);
+    clip-path: circle(1500px at 90% -10%);
+    -webkit-clip-path: circle(1500px at 90% -10%);
     pointer-events: all;
     top: 0;
     height: 110vh;
