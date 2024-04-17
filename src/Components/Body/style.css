@@ -35,22 +35,14 @@ color: var(--background);
 .heading-two:hover{
     color: var(--text);
 }
-.emoji{
-    font-size: 55px;
+.heading, .heading-two, .heading-three{
+    font-size: 4rem !important;
 }
-@media only screen and (min-width: 320px) {
+@media screen and (max-width: 720px) {
     .heading, .heading-two, .heading-three{
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
-    .emoji{
-        font-size: 47px;
-  position: absolute;
-  left: 290px;
-    bottom: 329px;
-    }
-    .emoji-two{
-        left: 345px;
-    }
+   
     .heading{
         margin-left: -60px;
   margin-bottom: 6px;
