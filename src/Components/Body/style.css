@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    margin-top: 85px;
 }
 .hero-section-image{
     border: none;
@@ -38,6 +38,10 @@ color: var(--background);
 .heading, .heading-two, .heading-three{
     font-size: 4rem !important;
 }
+.home-content{
+    width: 100vw;
+  text-align: center;
+}
 @media screen and (max-width: 720px) {
     .heading, .heading-two, .heading-three{
         font-size: 2rem !important;
@@ -46,5 +50,8 @@ color: var(--background);
     .heading{
         margin-left: -60px;
   margin-bottom: 6px;
+    }
+    .heading-three{
+        font-size: 3.5rem;
     }
 }

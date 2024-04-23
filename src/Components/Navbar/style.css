@@ -3,9 +3,10 @@
 nav {
   height: 14vh;
   background: var(--background);
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
 }
 .logo{
     height: 10vh;
@@ -51,8 +52,10 @@ nav {
     margin: 5px;
   }
   nav {
-    position: relative;
+    position: absolute;
     height: 14vh;
+    width: 100%;
+    z-index: 1;
   }
 
   .hamburger {

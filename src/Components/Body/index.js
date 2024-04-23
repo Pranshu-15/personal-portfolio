@@ -6,8 +6,15 @@ const Body = () => {
   return (
     <>
     <div className='home-section'>
+    <div className='home-image'>
     <iframe title='hero-section-img' className='hero-section-image' src="https://lottie.host/embed/cff70859-a1f8-4a3b-b5d1-d335bc7561b3/1JpEZGgGyQ.json"></iframe>
+    </div>
+    <div className='home-content'>
+
+    <div className='hero-image'>
     <div className='first-line'>
+    </div>
+    <div className='hero-content'></div>
       <h1 className='heading'>Hi Folks!!</h1>
     </div>
     <div className='second-line'>
@@ -26,6 +33,7 @@ const Body = () => {
             
           />
           </h1>
+    </div>
     </div>
     </div>
     </>

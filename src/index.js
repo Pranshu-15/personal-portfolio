@@ -7,7 +7,8 @@ import Body from './Components/Body';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Error from './Components/Error';
-import Project from './Components/Project';
+import ProjectSlider from './Components/ProjectSlider';
+// import Project from './Components/Project';
 
 const appRouter = createBrowserRouter ([
   {
@@ -28,7 +29,7 @@ const appRouter = createBrowserRouter ([
       },
       {
         path : "/project",
-        element : <Project />
+        element : <ProjectSlider />
       },
       
     ],
